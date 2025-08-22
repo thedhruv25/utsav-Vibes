@@ -1,0 +1,441 @@
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Utsav Vibes</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #fafafa;
+    }
+    header {
+      background: linear-gradient(135deg, #e91e63, #ff9800);
+      color: #fff;
+      text-align: center;
+      padding: 40px 20px;
+    }
+    header img {
+      max-width: 250px;
+      height: auto;
+        border-radius: 50%;;
+      margin-bottom: 15px;
+      box-shadow: 0 4px 15px rgba(0,0,0,0.3);
+    }
+    header h1 {
+      margin: 0;
+      font-size: 36px;
+      font-weight: bold;
+    }
+    section {
+      padding: 30px 10%;
+    }
+    h2 {
+      color: #333;
+      border-left: 6px solid #e91e63;
+      padding-left: 10px;
+      font-size: 28px;
+      margin-bottom: 20px;
+    }
+    table {
+      width: 100%;
+      border-collapse: separate;
+      border-spacing: 20px;
+    }
+    td {
+      background: #fff;
+      border-radius: 12px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+      padding: 15px;
+      text-align: center;
+      vertical-align: top;
+      transition: transform 0.2s;
+    }
+td:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(255, 0, 0, 0.5); /* stronger red shadow */
+  background-color: rgba(255, 230, 230, 0.6);  /* light highlight background */
+  cursor: pointer; /* shows it's interactive */
+}
+    td img {
+      width: 100%;
+      max-width: 200px;
+      border-radius: 10px;
+      margin-bottom: 10px;
+    }
+    td p {
+      margin: 5px 0;
+      font-size: 16px;
+    }
+    td .price {
+      color: #e91e63;
+      font-weight: bold;
+    }
+   footer {
+  background: #333;
+  color: #fff;
+  text-align: center;
+  padding: 40px 20px;  /* was 20px, now bigger */
+  font-size: 20px;     /* was 18px */
+  margin-top: 50px;
+}
+footer a {
+  color: #ff9800;         /* keep your link color */
+  text-decoration: underline; /* always underline */
+  margin: 0 10px;
+  font-weight: 500;       /* make it slightly bolder if you like */
+}
+
+footer a:hover {
+  color: #fff;            /* optional: invert color on hover */
+  text-decoration: underline; /* stays underlined */
+}
+footer p {
+  margin: 15px 0;
+  line-height: 1.6;
+}
+
+.contact-form {
+  max-width: 700px;           /* make it wider */
+  margin: 50px auto;          /* more spacing around */
+  background: linear-gradient(135deg, #ffffff, #fff5f7); /* subtle background gradient */
+  padding: 30px 40px;         /* more padding inside */
+  border-radius: 16px;
+  box-shadow: 0 6px 20px rgba(0,0,0,0.12);
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.contact-form:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 12px 30px rgba(0,0,0,0.18);
+}
+
+.contact-form label {
+  font-weight: 600;
+  font-size: 15px;
+  color: #444;
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding: 14px 16px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  font-size: 16px;
+  background: #fafafa;
+  transition: border-color 0.3s, background 0.3s;
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+  border-color: #e91e63;
+  background: #fff;
+  outline: none;
+}
+
+.contact-form button {
+  background: linear-gradient(135deg, #e91e63, #ff9800);
+  color: white;
+  padding: 14px;
+  border: none;
+  border-radius: 10px;
+  font-size: 17px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.3s, transform 0.3s;
+}
+
+.contact-form button:hover {
+  background: linear-gradient(135deg, #d81b60, #fb8c00);
+  transform: translateY(-2px);
+}
+
+
+
+
+
+  </style>
+</head>
+<body>
+
+<header>
+  <img src="images/IMG_7087.PNG" alt="Utsav Vibes">
+ 
+  <p style="margin-top: 10px; font-size: 18px; font-weight: 500; color: #fff;">
+    Handmade decorations inspired by festivals – crafted with love and care!
+  </p>
+</header>
+
+<section>
+
+
+  
+  <h2>Tea Light Diyas</h2>
+  <table>
+    <tr>
+      <td>
+        <img src="images/diya5combo.jpg" alt="Tealight 1">
+       
+        <p class="price">₹250</p>
+      </td>
+      <td>
+        <img src="images/diya2.jpg" alt="Tealight 2">
+       
+        <p class="price">₹250/pair</p>
+      </td>
+      <td>
+        <img src="images/diya4.jpg" alt="Tealight 3">
+             <p>(4 Tea Lights)</p>
+        <p class="price">₹500 </p>
+      </td>
+      <td>
+        <img src="images/diya5.jpg" alt="Tealight 4">
+           <p>(Set of 5) </p>
+        <p class="price">₹250</p>
+      </td>
+    </tr>
+
+   
+  </table>
+  <h2>Rangolis</h2>
+  <table>
+    <tr>
+        <td>
+        <img src="images/IMG_7507.JPG" alt="Side Handling 4">
+        <p>(24 inches)</p>
+        <p class="price">₹3000</p>
+      </td>
+      <td>
+        <img src="images/IMG_7484.JPG" alt="Side Handling 2">
+        <p>(10 inches)</p>
+        <p class="price">₹1000</p>
+      </td>
+      <td>
+        <img src="images/IMG_7485.JPG" alt="Side Handling 3">
+        <p>(10 inches)</p>
+        <p class="price">₹1200</p>
+      </td>
+      <td>
+        <img src="images/IMG_7487.JPG" alt="Side Handling 4">
+        <p>(10 inches)</p>
+        <p class="price">₹1000</p>
+      </td>
+    </tr>
+
+
+     <tr>
+      <td>
+        <img src="images/IMG_7489.JPG" alt="Side Handling 1">
+        <p>(10 inches)</p>
+        <p class="price">₹1000</p>
+      </td>
+      <td>
+        <img src="images/IMG_7494.JPG" alt="Side Handling 2">
+        <p>(12 inches)</p>
+        <p class="price">₹1500</p>
+      </td>
+      <td>
+        <img src="images/IMG_7496.JPG" alt="Side Handling 3">
+        <p>(12 inches)</p>
+        <p class="price">₹1500</p>
+      </td>
+      <td>
+        <img src="images/IMG_7497.JPG" alt="Side Handling 4">
+        <p>(14 inches)</p>
+        <p class="price">₹2000</p>
+      </td>
+    </tr>
+
+
+     <tr>
+      <td>
+        <img src="images/IMG_7500.JPG" alt="Side Handling 1">
+        <p>(14 inches)</p>
+        <p class="price">₹2000</p>
+      </td>
+      <td>
+        <img src="images/IMG_7504.JPG" alt="Side Handling 2">
+        <p>(9 inches)</p>
+        <p class="price">₹800</p>
+      </td>
+      <td>
+        <img src="images/IMG_7505.JPG" alt="Side Handling 3">
+        <p>(16 inches)</p>
+        <p class="price">₹2000</p>
+      </td>
+    
+        <td>
+        <img src="images/IMG_7483.JPG" alt="Side Handling 1">
+       
+        <p class="price">₹2000</p>
+      </td>
+    </tr>
+
+      <tr>
+      <td>
+        <img src="images/IMG_7508.JPG" alt="Side Handling 1">
+        <p>(10 inches)</p>
+        <p class="price">₹1500</p>
+      </td>
+      <td>
+        <img src="images/IMG_7516.JPG" alt="Side Handling 2">
+        <p>(24 inches)</p>
+        <p class="price">₹3000</p>
+      </td>
+      <td>
+        <img src="images/IMG_7517.JPG" alt="Side Handling 3">
+        <p>(12 inches Holographic Acrylic Flowers) </p>
+        <p class="price">₹2000</p>
+      </td>
+      <td>
+        <img src="images/IMG_7518.JPG" alt="Side Handling 4">
+        <p>(12 inches Holographic Acrylic Flowers)</p>
+        <p class="price">₹2000</p>
+      </td>
+    </tr>
+
+
+
+
+   
+    
+    
+    
+   
+    <!-- Repeat more rows of 4 items here -->
+  </table>
+
+  <h2>SideHangings & Tealight Holders</h2>
+  <table>
+    <tr>
+      <td>
+        <img src="images/IMG_7545.JPG" alt="Tealight 1">
+       
+        <p class="price">₹1500</p>
+      </td>
+      <td>
+        <img src="images/IMG_7612.JPG" alt="Tealight 2">
+       
+        <p class="price">₹1500</p>
+      </td>
+      <td>
+        <img src="images/IMG_7611.JPG" alt="Tealight 3">
+        <p>Tealight Holder #3</p>
+        <p class="price">₹1000</p>
+      </td>
+      <td>
+        <img src="images/IMG_7610.JPG" alt="Tealight 4">
+        <p>Tealight Holder #4</p>
+        <p class="price">₹1000</p>
+      </td>
+    </tr>
+
+      <tr>
+      <td>
+        <img src="images/IMG_7609.JPG" alt="Tealight 1">
+        <p>Tealight Holder #1</p>
+        <p class="price">₹1500</p>
+      </td>
+      <td>
+        <img src="images/IMG_7603.JPG" alt="Tealight 2">
+        
+        <p class="price">₹2000</p>
+      </td>
+      <td>
+        <img src="images/IMG_7607.JPG" alt="Tealight 3">
+        <p>Tealight Holder #3</p>
+        <p class="price">₹1000</p>
+      </td>
+      <td>
+        <img src="images/IMG_7606.JPG" alt="Tealight 4">
+        <p>Tealight Holder #4</p>
+        <p class="price">₹1000</p>
+      </td>
+    </tr>
+
+
+       <tr>
+      <td>
+        <img src="images/IMG_7605.JPG" alt="Tealight 1">
+       
+        <p class="price">₹1000</p>
+      </td>
+      <td>
+        <img src="images/IMG_7604.JPG" alt="Tealight 2">
+     
+        <p class="price">₹1000</p>
+      </td>
+      <td>
+        <img src="images/IMG_7608.JPG" alt="Tealight 3">
+       
+        <p class="price">₹1500</p>
+      </td>
+      <td>
+        <img src="images/IMG_7602.JPG" alt="Tealight 4">
+      
+        <p class="price">₹1000</p>
+      </td>
+    </tr>
+
+
+      <tr>
+      <td>
+        <img src="images/IMG_7601.JPG" alt="Tealight 1">
+    
+        <p class="price">₹1000</p>
+      </td>
+      <td>
+        <img src="images/IMG_7600.JPG" alt="Tealight 2">
+        
+        <p class="price">₹500</p>
+      </td>
+      <td>
+        <img src="images/IMG_7598.JPG" alt="Tealight 3">
+       
+        <p class="price">₹1500</p>
+      </td>
+      <td>
+        <img src="images/IMG_7596.JPG" alt="Tealight 4">
+       
+        <p class="price">₹2200</p>
+      </td>
+    </tr>
+    <!-- Repeat more rows of 4 items here -->
+  </table>
+
+  <h2>Contact Us</h2>
+  <p style="text-align: center;">Please fill out the form below and we’ll get back to you as soon as possible.</p>
+<form action="https://formspree.io/f/xjkonajn" method="POST" class="contact-form">
+  <label for="name">Your Name:</label>
+  <input type="text" id="name" name="name" required>
+
+  <label for="email">Your Email:</label>
+  <input type="email" id="email" name="email" required>
+
+  <label for="message">Your Message:</label>
+  <textarea id="message" name="message" rows="5" required></textarea>
+
+  <button type="submit">Send Message</button>
+</form>
+</section>
+
+<footer>
+  
+  <p>
+    <a href="https://www.instagram.com/utsavvibes.in?igsh=eWM5ZGUzYTNiMHQ0&utm_source=qr" target="_blank">Instagram</a> |
+    <a href="https://youtube.com/@ustavvibes?si=O8fQoizn6A38HMuF" target="_blank">YouTube</a> |
+    <a href="https://www.facebook.com/pranshuta.sabharwal/" target="_blank">Facebook</a>
+  </p>
+</footer>
+
+</body>
+</html>
